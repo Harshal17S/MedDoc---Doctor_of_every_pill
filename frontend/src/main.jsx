@@ -8,7 +8,7 @@ import { MantineProvider } from '@mantine/core';
 import { ClerkProvider } from '@clerk/clerk-react';
 import styles from '../src/CSS/SignIn.module.css';
 
-const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
+const PUBLISHABLE_KEY = "pk_test_bW9kZWwtcG9sZWNhdC0xLmNsZXJrLmFjY291bnRzLmRldiQ"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

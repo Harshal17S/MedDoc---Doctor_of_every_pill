@@ -8,8 +8,8 @@ const DoctorsDb = require('./Models/Doctors');
 const PatientDb = require('./Models/Patients');
 const axios = require('axios');
 const { GoogleGenerativeAI } = require("@google/generative-ai");
-const genAI = new GoogleGenerativeAI("AIzaSyDfazWK5xqM82qJqxGTfqrWMac6PE8Cz6o");
-const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+const genAI = new GoogleGenerativeAI("AIzaSyAoQ6P8TsUbMcM6SkUXM8hNtEs0gmRDQVY");
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 
 app.use(express.json());

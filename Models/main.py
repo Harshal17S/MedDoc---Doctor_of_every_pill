@@ -129,3 +129,6 @@ async def allergy_endpoints(Allergy_c:str,drug_names:str):
         return "Avoid This Drug!"
     else:
        return "You Can use this Drug"
+
+#        ./DrugToDrug/Scripts/activate
+#  uvicorn main:app --reload
